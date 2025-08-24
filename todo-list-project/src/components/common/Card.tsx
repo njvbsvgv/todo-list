@@ -8,7 +8,7 @@ const Card: FC<TCard<boolean | number>> = ({
   onClik
 }) => {
   return (
-    <div className="task-card w-[90%] py-2 flex justify-around items-center shadow-[0_1px_10px_#000] rounded-xl">
+    <div className="task-card w-[90%] py-2 flex justify-around items-center shadow-[0_1px_10px_#C0C0C0] rounded-xl">
       <p className="title">{title}</p>
       <p className="description">{description}</p>
       <p
