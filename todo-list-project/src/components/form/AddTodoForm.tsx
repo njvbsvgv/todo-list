@@ -30,7 +30,7 @@ const AddTodoForm: FC<TAddTodoForm> = ({ setTaskState }) => {
       );
       const newData = newTask.addDataToTaskDataBase();
       console.log("new dataBase ==>", newData);
-      setTaskState((prev: TTaskData[]) => [...prev]);
+      setTaskState((prev: TTaskData[]) => [...newData]);
     },
   });
 
